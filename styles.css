@@ -1,0 +1,265 @@
+*{
+	font: 62.50%;
+	
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Philosopher-Regular;
+	background-color: #d0305430;
+}
+
+@font-face{
+	font-family: bellania;
+	src: url(./fonts/bellania.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: Philosopher-Regular;
+	src: url(./fonts/Philosopher-Regular.ttf) format('truetype');
+}
+
+img{
+	width: 15em;
+	height: 15em;
+}
+
+nav{
+	color: #d07084;
+	height: 9.5em;
+	background-color: #000000;
+	font-family: bellania;
+	margin: 0;
+}
+
+.lista-nav{
+	list-style: none;
+	font-size: 1.4em;
+	margin-left: 52em;
+}
+
+.lista-nav a{
+	color:#d07084 ;
+}
+
+.logo{
+	position: absolute;
+	left:45%;
+	height: 7em;
+	width: 7em;
+	border: solid #f2f7f8 3px;
+	border-radius: 50%;
+	margin-top: 1em;
+}
+.titulo{
+	color: #ff1616;
+	position: absolute;
+	margin-top: 1.8em;
+	margin-left: 3em;
+	font-size: 1.5em;
+}
+
+.bienvenida-img{
+	position: relative;
+	left: 23.5%;
+	margin: 1em auto;
+	width: 44em;
+	height: 30em;
+}
+
+#sabores{
+	margin: 3em;
+}
+
+#sabores h2{
+	margin-left: 3.7em;
+}
+
+.sabores-img-content{
+	height: 20em;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	gap: 2em;
+	margin: 2em;
+}
+
+.sabores h3{
+	height: 2em;
+	text-align: center;
+}
+
+.sabores p{
+	height: 1em;
+	text-align: center;
+	padding: .5em;
+	font-size: 1.2em;
+}
+
+.sabores-img{
+	height: 18em;
+	width: 19em;
+}
+
+div.coco{
+	background-color: #f2f7f8;
+}
+div.frutilla{
+	background-color:#d07084;
+}
+
+div.chocolate{
+	background-color: #764134;
+}
+
+.p-coco{
+	background-color: #f2f7f8;	
+}
+
+.p-frutilla{
+	background-color:#d07084;	
+}
+
+.p-chocolate{
+	background-color: #764134;
+}
+
+#adornos{
+	margin: 6em;
+}
+
+
+#adornos h2{
+	margin-left: 1.6em;
+}
+
+.adornos-img-content{
+	height: 20em;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	justify-content: center;
+	gap: 2em;
+	margin: 2em;
+}
+.adornos h3{
+	height: 2em;
+	text-align: center;
+}
+.adornos p{
+	height: 1em;
+	text-align: center;
+	padding: .5em;
+	font-size: 1.2em;
+}
+
+.adornos-img{
+	height: 20em;
+	width: 18em;
+}
+
+div.adorno-1{
+	background-color: #f2f7f8;
+}
+
+div.adorno-2{
+	background-color: #d07084;
+}
+
+div.adorno-3{
+	background-color: #764134;
+}
+
+.p-adorno-1{
+	background-color: #f2f7f8;
+}
+
+.p-adorno-2{
+	background-color: #d07084;	
+}
+
+.p-adorno-3{
+	background-color: #764134;
+}
+
+#formulario{
+	margin: 3em auto;
+	padding: 1em;
+	width: 33em;
+	background-color: #ff1616;
+	border-radius: 6%;
+	position: relative;
+	font-weight: 800;
+}
+#contenido-form{
+	padding: 1em;
+	margin: 0 auto;
+}
+
+.input{
+	padding: .5em;
+	margin: 0 auto;
+	width: 26em;
+}
+
+.input input{
+	border-radius: 8%;
+}
+
+.check{
+	margin: .5em;
+}
+
+.input textarea{
+	border-radius: 5%;
+	outline: none;
+	resize: none;
+	height: 17em;
+	width: 26em;
+	padding: 1em;
+}
+
+.enviar{
+	height: 3em;
+	width: 6em;
+	font-size: .9em;
+}
+
+.conocenos-info{
+	color: #ffffff;
+	background-color: #d07084;
+	border-radius: 1%;
+	padding: 1em;
+	width: 77em;
+	margin: 3em;
+}
+
+.conocenos-info p{
+	color: #000000;
+	margin: .5em;
+}
+
+table,td, th{
+	border: solid #000000 1px;
+	margin: 1em;
+	text-align: center;
+	width: 45em;
+}
+
+.footer{
+	height: 9.5em;
+	background-color: #000000;
+	margin: 0;	
+}
+
+.logo-footer{
+	position: absolute;
+	left:45%;
+	height: 7em;
+	width: 7em;
+	border: solid #f2f7f8 3px;
+	border-radius: 50%;
+	margin-top: 1em;
+}

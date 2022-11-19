@@ -1,0 +1,138 @@
+*{
+	font: 62.50%;
+	
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Philosopher-Regular;
+	background-color: #d0305430;
+}
+
+@font-face{
+	font-family: bellania;
+	src: url(../fonts/bellania.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: Philosopher-Regular;
+	src: url(../fonts/Philosopher-Regular.ttf) format('truetype');
+}
+
+nav{
+	color: #d07084;
+	height: 9.5em;
+	background-color: #000000;
+	font-family: bellania;
+	margin: 0;
+}
+
+.lista-nav{
+	list-style: none;
+	font-size: 1.4em;
+	margin-left: 52em;
+}
+
+.lista-nav a{
+	color:#d07084 ;
+}
+
+.logo{
+	position: absolute;
+	left:45%;
+	height: 7em;
+	width: 7em;
+	border: solid #f2f7f8 3px;
+	border-radius: 50%;
+	margin-top: 1em;
+}
+.titulo{
+	color: #ff1616;
+	position: absolute;
+	margin-top: 1.8em;
+	margin-left: 3em;
+	font-size: 1.5em;
+}
+
+.inicio{
+	margin-top: 1.3em;
+	position: absolute;
+	font-size: 1.2em;
+}
+
+.tabla-pedidos{
+	width: 75em;
+}
+
+.tabla-pedidos tr td{
+	font-size: 1.3em;
+}
+
+.pedidos{
+	font-size: 2em;
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 0;
+}
+
+.titulo-pedidos{
+	font-size: 1.7em;
+	color: #d07084;
+}
+
+.p-sabores{
+	font-size: 2em;
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 0;
+}
+
+.titulo-sabores{
+	font-size: 1.7em;
+	color: #d07084;
+}
+
+.tabla-sabores tr td{
+	font-size: 1.3em;
+}
+
+.p-adornos{
+	font-size: 2em;
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 0;
+}
+
+.titulo-adornos{
+	font-size: 1.7em;
+	color: #d07084;
+}
+
+.tabla-adornos tr td{
+	font-size: 1.3em;
+}
+
+table,td, th{
+	border: solid #000000 1px;
+	margin: 5em auto;
+	text-align: center;
+	width: 45em;
+
+}
+
+.footer{
+	height: 9.5em;
+	background-color: #000000;
+	margin: 0;	
+}
+
+.logo-footer{
+	position: absolute;
+	left:45%;
+	height: 7em;
+	width: 7em;
+	border: solid #f2f7f8 3px;
+	border-radius: 50%;
+	margin-top: 1em;
+}

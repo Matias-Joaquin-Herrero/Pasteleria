@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Pasteleria</title>
+</head>
+<body>
+
+<nav>
+	<img class="logo" alt="logo" src="./imagenes/logo-pasteleria-color.png">
+	<h1 class="titulo"> Pasteleria Los Abuelos</h1>
+
+	<ul class="lista-nav">
+		<li class="pastelero">
+			<a href="./pastelero/index.html">Pastelero</a>
+		</li>
+		<li class="conocenos">
+			<a href="#conocenos">Conocenos</a>
+		</li>
+	</ul>
+</nav>
+
+<section id="bienvenida">
+	<img src="./imagenes/bienvenida-img.jpg" class="bienvenida-img">
+</section>
+
+<section id="sabores">
+
+	<h2>
+		Nuestros sabores:
+	</h2>
+
+	<div class="sabores-img-content">
+
+		<div class="sabores coco">
+			<h3>Coco</h3>
+			<img alt="sabor coco" class ="sabores-img" src="./imagenes/coco-img.jpg">
+			<p class="p-coco">$40</p>
+		</div>
+
+		<div class="sabores frutilla">
+			<h3>Frutilla</h3>
+			<img alt="sabor frutilla" class ="sabores-img" src="./imagenes/frutilla-img.jpg">
+			<p class="p-frutilla">$40</p>
+		</div>
+
+		<div class="sabores chocolate">
+			<h3>Chocolate</h3>
+			<img alt="sabor chocolate" class ="sabores-img" src="./imagenes/chocolate-img.jpg">
+			<p class="p-chocolate">$60</p>
+		</div>
+	</div>
+
+</section>
+
+<section id="adornos">
+
+	<h2>
+		Nuestros Adornos:
+	</h2>
+	<div class="adornos-img-content">
+		<div class="adornos adorno-1">
+			<h3>Adorno 1</h3>
+			<img alt="adorno-1" class ="adornos-img" src="./imagenes/adorno-1.jpg">
+			<p class="p-adorno-1">$40</p>
+		</div>
+
+		<div class="adornos adorno-2">
+			<h3>Adorno 2</h3>
+			<img alt="adorno-2" class ="adornos-img" src="./imagenes/adorno-2.jpg">
+			<p class="p-adorno-2">$40</p>
+		</div>
+
+		<div class="adornos adorno-3">
+			<h3>Adorno 3</h3>
+			<img alt="adorno-3" class ="adornos-img" src="./imagenes/adorno-3.jpg">
+			<p class="p-adorno-3">$40</p>
+		</div>
+	</div>
+</section>
+
+<form id="formulario">
+		
+	<div id="contenido-form">
+
+		<div id="name-input" class="input">
+
+			<label id="name-label" for="name">Nombre:</label>
+			<input  type="text" name="name" id="name" placeholder="Ingrese su nombre"required >
+		</div>
+
+		<div id="email-input" class="input">
+
+			<label id="email-label" for="email" >E-mail:</label>
+			<input type="email"name="email" id="email"  placeholder="Ingrese su correo" required >
+		</div>
+
+		<div id="phone-input" class="input">
+			
+			<label id="number-label" for="phone" >Telefono:</label>
+			<input type="tel" name="age" id="phone" placeholder="Ingrese su telefono" >
+		</div>
+
+		<div id="checkbox-sabores" class="input">
+			
+			<label id="checkbox-label">Sabores<br></label>
+
+			<label> 
+				<input type="checkbox" name="checkbox-input" value="coco" class="check">Coco<br>
+			</label>
+			
+			<label> 
+				<input type="checkbox" name="checkbox-input" value="frutilla" class="check">Frutilla<br>
+			</label>
+			
+			<label> 
+				<input type="checkbox" name="checkbox-input" value="chocolate" class="check">Chocolate<br>
+			</label>
+
+		</div>
+
+		<div id="checkbox-adornos" class="input">
+			
+			<label id="checkbox-label">Adornos<br></label>
+
+			<label> <input type="checkbox" name="checkbox-input" value="adorno-1" class="check">Adorno 1<br></label>
+			
+			<label> <input type="checkbox" name="checkbox-input" value="adorno-2" class="check">Adorno 2<br></label>
+			
+			<label> <input type="checkbox" name="checkbox-input" value="adorno-3" class="check">Adorno 3<br></label>
+
+		</div>
+
+		<div id="opinions-input" class="input">
+			
+			<textarea id="opinions" name="descripcion-pastel" placeholder="Ingrese una descripcion de su pastel."></textarea> 
+
+		</div>
+
+		<div id="submit-botton" >
+			
+			<button type="submit" id="submit" class="enviar">
+				Enviar
+			</button>
+
+		</div>
+	</div>
+
+</form>
+
+<section id="conocenos" class="conocenos-info">
+	<h2>¿Quienes somos?</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<h2>¿Donde nos encontramos?</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<h3>¿En que horarios?</h3>
+	<!--tabla-->
+	<table class="tabla">
+		<thead>
+			<tr>
+				<th>
+					Lunes
+				</th>
+				<th>
+					Martes
+				</th>
+				<th>
+					Miercoles
+				</th>
+				<th>
+					Jueves
+				</th>
+				<th>
+					Viernes
+				</th>
+				<th>
+					Sábado
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					De 8:00 a 18:00 horas
+				</td>
+				<td>
+					De 8:00 a 18:00 horas
+				</td>
+				<td>
+					De 8:00 a 18:00 horas
+				</td>
+				<td>
+					De 8:00 a 18:00 horas
+				</td>
+				<td>
+					De 8:00 a 18:00 horas
+				</td>
+				<td>
+					De 9:00 a 16:00 horas
+				</td>
+			</tr>
+			
+		</tbody>
+	</table>
+</section>
+
+<footer class="footer">
+	<img src="./imagenes/logo-pasteleria-color.png" alt="logo" class="logo-footer">
+</footer>
+
+</body>
+</html>
